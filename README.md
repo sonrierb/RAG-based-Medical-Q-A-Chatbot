@@ -25,10 +25,14 @@ A medical question-answering system built using **RAG (Retrieval-Augmented Gener
 ##  Installation
 
 ```bash
-git clone https://github.com/sonrierb/RAG-based-Medical-Q-A-Chatbot
-cd RAG-based Medical Q&A Chatbot
-pip install -r requirements.txt
+# Clone the repository
+git clone https://github.com/sonrierb/RAG-based-Medical-Q-A-Chatbot.git
 
+# Navigate into the project folder
+cd "RAG-based-Medical-Q-A-Chatbot"
+
+# Install dependencies
+pip install -r requirements.txt
 
 ##Environment Variables
 Create .env:
