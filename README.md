@@ -25,34 +25,29 @@ A medical question-answering system built using **RAG (Retrieval-Augmented Gener
 ##  Installation
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/sonrierb/RAG-based-Medical-Q-A-Chatbot
 cd RAG-based Medical Q&A Chatbot
 pip install -r requirements.txt
 
 
 ##Environment Variables
-
 Create .env:
 GROQ_API_KEY=your_key
 
 ## Run FastAPI Backend
-
 uvicorn main:app --reload
 
 ## Run Streamlit App
-
 streamlit run app.py
-Make sure FastAPI server is running before using Streamlit.
+-->Make sure FastAPI server is running before using Streamlit.
 
 ## How It Works
-
 Upload a medical document
 Text is extracted → chunked → embedded
 Query is semantically searched
 Groq LLM generates answer using context
 
 ##Model Used
-
 Embedding: all-MiniLM-L6-v2
 LLM: llama-3.1-8b-instant
 
